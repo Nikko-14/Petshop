@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>MyPetStore - Banho e Tosa</title>
+</head>
+<body>
+
+<header>
+  <nav>
+     <a href="Landing.html" target="_self">Pagina Inicial</a>
+     <a href="Produtos.html" target="_self">Produtos</a>
+     <a href="BanTosa.html" target="_self">Banho e Tosa</a>
+     <a href="Sobre.html" target="_self">Sobre nós</a>
+  </nav>
+</header>
+
+<main>
+  <h1>Agende o banho e tosa do seu pet</h1>
+  <p>Preencha o formulário abaixo. Entraremos em contato no dia marcado.</p>
+
+  <form action="agradecimentos.html" method="get">
+
+    <p>
+      <label for="nome">Seu nome:</label><br>
+      <input type="text" id="nome" name="nome" required>
+    </p>
+
+    <p>
+      <label for="email">E-mail:</label><br>
+      <input type="email" id="email" name="email" required>
+    </p>
+
+    <p>
+      <label for="nomepet">Nome do pet:</label><br>
+      <input type="text" id="pet" name="pet" required>
+    </p>
+
+    <p>
+       <label for="servico">Serviço:</label>
+       <select id="servico" name="servico" required>
+            <option value="">Selecione</option>
+            <option value="banho">Banho</option>
+            <option value="tosa">Tosa</option>
+            <option value="banho-tosa">Banho + Tosa</option>
+       </select>
+
+        <br><br>
+
+        <label for="datahora">Data e horário:</label>
+        <input type="datetime-local" id="datahora" name="datahora" required>
+    </p>
+
+    <p>
+      <label for="categoria">Categoria:</label><br>
+      <select id="categoria" name="categoria" required>
+        <option value="">Escolha uma categoria</option>
+        <option>Tosa na maquina</option>
+        <option>Tosa na tesoura</option>
+        <option>Tosa leão</option>
+        <option>Tosa Asian fusion</option>
+        <option>Tosa Continental</option>
+        <option>Tosa higiênica</option>
+        <option>Tosa bebê</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+    </p>
+
+    <p>
+      <label for="Raça">Raça:</label><br>
+      <textarea id="Raça" name="Raça" rows="4" cols="40"></textarea required>
+    </p>
+
+    <p>
+      <input type="checkbox" id="termos" name="termos" required>
+      <label for="termos">Confirmo que estou marcando um banho e tosa.</label>
+    </p>
+
+    <p>
+      <button type="submit">Enviar solicitação</button>
+      <button type="reset">Limpar</button>
+    </p>
+
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2026 MyPetStore. Todos os direitos reservados.</p>
+  <nav>
+    <a href="Politi.html">Política de Privacidade</a>
+    <a href="Termos.html">Termos de Uso</a>
+    <a href="Landing.html#inicio">Voltar ao topo</a>
+  </nav>
+</footer>
+
+</body>
+</html>
